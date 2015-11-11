@@ -1,7 +1,9 @@
 var click = 0;
 
-function add_clicks(id) {
 
+
+function gameEnd() {
+  function add_clicks(id) {
   if (id === "clicked") {
     alert("Already Clicked!");
   } else {
@@ -10,3 +12,5 @@ function add_clicks(id) {
     document.getElementById(id).id = "clicked";
   };
 };
+  alert("Game has ended! Your score is " + click)
+}
