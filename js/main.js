@@ -14,13 +14,23 @@ function add_clicks(id) {
   };
 };
 
-function changeImage(src) {
-  console.log(src)
+function changeImage(id) {
+  console.log(id);
+  document.getElementById(id).src = "images/pokeball.jpg";
+  
 }
 
 function gameStart() {
   click=0;
   nostart = false;
+  var pokeballs = document.getElementsByTagName("img");
+  var identify = [];
+  for (var i = 1; i < pokeballs.length; i++) {
+    identify.push(pokeballs[i].id);
+  };
+  for (var i = 0; i < identify.length; i++) {
+    document.getElementById(identify[i]).src = "images/" + identify[i] + ".png";
+  };
 }
 
 function gameEnd() {
