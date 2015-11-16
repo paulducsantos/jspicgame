@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script type="text/javascript" src="js/main.js"></script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles/main.css">
@@ -43,7 +42,7 @@
           <div class="row">
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="bulbasaur" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="bulbasaur" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Bulbasaur</h3>
                   <p class="text-center">Pokemon #1</p>
@@ -53,7 +52,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="charmander" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="charmander" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Charmander</h3>
                   <p class="text-center">Pokemon #4</p>
@@ -62,7 +61,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->      
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="squirtle" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="squirtle" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Squirtle</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -71,7 +70,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="pikachu" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="pikachu" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Pikachu</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -80,7 +79,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="ninetails" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="ninetails" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">NineTails</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -89,7 +88,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="jigglypuff" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="jigglypuff" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Jigglypuff</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -101,7 +100,7 @@
           <div class="row">
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="psyduck" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="psyduck" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Psyduck</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -110,7 +109,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="growlithe" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="growlithe" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Growlithe</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -119,7 +118,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->      
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="abra" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="abra" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Abra</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -128,7 +127,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="slowpoke" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="slowpoke" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Slowpoke</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -137,7 +136,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="magnemite" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="magnemite" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Magnemite</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -146,7 +145,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="farfetched" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="farfetched" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Farfetch'd</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -158,7 +157,7 @@
           <div class="row">
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="gengar" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="gengar" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Gengar</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -167,7 +166,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="cubone" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="cubone" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Cubone</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -176,7 +175,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->      
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="jolteon" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="jolteon" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Jolteon</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -185,7 +184,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="flareon" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="flareon" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Flareon</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -194,7 +193,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="snorlax" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="snorlax" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Snorlax</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -203,7 +202,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="mew" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="mew" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Mew</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -215,7 +214,7 @@
           <div class="row">
             <div class="col-sm-6 col-md-2 col-md-offset-4">
               <div class="thumbnail">
-                <img id="mewtwo" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="mewtwo" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Mewtwo</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -224,7 +223,7 @@
             </div> <!-- end col-sm-6 col-md-2 -->
             <div class="col-sm-6 col-md-2">
               <div class="thumbnail">
-                <img id="hitmonchan" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+                <img class="game-image" id="hitmonchan" src="images/pokeball.jpg" alt="...">
                 <div class="caption">
                   <h3 class="text-center">Hitmonchan</h3>
                   <p class="text-center">this is a leaf pokemon</p>
@@ -248,7 +247,7 @@
     <div class="row">
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="bulbasaur" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="bulbasaur" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Bulbasaur</h3>
             <p class="text-center">Pokemon #1</p>
@@ -258,7 +257,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="charmander" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="charmander" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Charmander</h3>
             <p class="text-center">Pokemon #4</p>
@@ -267,7 +266,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->      
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="squirtle" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="squirtle" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Squirtle</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -276,7 +275,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="pikachu" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="pikachu" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Pikachu</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -285,7 +284,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="ninetails" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="ninetails" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">NineTails</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -294,7 +293,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="jigglypuff" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="jigglypuff" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Jigglypuff</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -306,7 +305,7 @@
     <div class="row">
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="psyduck" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="psyduck" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Psyduck</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -315,7 +314,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="growlithe" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="growlithe" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Growlithe</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -324,7 +323,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->      
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="abra" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="abra" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Abra</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -333,7 +332,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="slowpoke" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="slowpoke" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Slowpoke</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -342,7 +341,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="magnemite" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="magnemite" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Magnemite</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -351,7 +350,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="farfetched" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="farfetched" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Farfetch'd</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -363,7 +362,7 @@
     <div class="row">
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="gengar" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="gengar" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Gengar</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -372,7 +371,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="cubone" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="cubone" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Cubone</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -381,7 +380,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->      
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="jolteon" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="jolteon" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Jolteon</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -390,7 +389,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="flareon" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="flareon" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Flareon</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -399,7 +398,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="snorlax" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="snorlax" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Snorlax</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -408,7 +407,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="mew" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="mew" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Mew</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -420,7 +419,7 @@
     <div class="row">
       <div class="col-sm-6 col-md-2 col-md-offset-4">
         <div class="thumbnail">
-          <img id="mewtwo" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="mewtwo" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Mewtwo</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -429,7 +428,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="hitmonchan" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="hitmonchan" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Hitmonchan</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -438,10 +437,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->      
 
   </div> <!-- end container -->
-<!-- jquery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
     
   <div class="container">
   <!-- center nav -->
@@ -467,7 +463,7 @@
     <div class="row">
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="bulbasaur" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="bulbasaur" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Bulbasaur</h3>
             <p class="text-center">Pokemon #1</p>
@@ -477,7 +473,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="charmander" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="charmander" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Charmander</h3>
             <p class="text-center">Pokemon #4</p>
@@ -486,7 +482,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->      
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="squirtle" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="squirtle" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Squirtle</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -495,7 +491,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="pikachu" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="pikachu" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Pikachu</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -504,7 +500,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="ninetails" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="ninetails" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">NineTails</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -513,7 +509,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="jigglypuff" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="jigglypuff" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Jigglypuff</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -525,7 +521,7 @@
     <div class="row">
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="psyduck" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="psyduck" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Psyduck</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -534,7 +530,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="growlithe" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="growlithe" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Growlithe</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -543,7 +539,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->      
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="abra" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="abra" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Abra</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -552,7 +548,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="slowpoke" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="slowpoke" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Slowpoke</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -561,7 +557,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="magnemite" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="magnemite" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Magnemite</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -570,7 +566,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="farfetched" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="farfetched" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Farfetch'd</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -582,7 +578,7 @@
     <div class="row">
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="gengar" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="gengar" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Gengar</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -591,7 +587,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="cubone" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="cubone" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Cubone</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -600,7 +596,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->      
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="jolteon" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="jolteon" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Jolteon</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -609,7 +605,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="flareon" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="flareon" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Flareon</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -618,7 +614,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="snorlax" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="snorlax" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Snorlax</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -627,7 +623,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="mew" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="mew" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Mew</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -639,7 +635,7 @@
     <div class="row">
       <div class="col-sm-6 col-md-2 col-md-offset-4">
         <div class="thumbnail">
-          <img id="mewtwo" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="mewtwo" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Mewtwo</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -648,7 +644,7 @@
       </div> <!-- end col-sm-6 col-md-2 -->
       <div class="col-sm-6 col-md-2">
         <div class="thumbnail">
-          <img id="hitmonchan" onClick="changeImage(id); add_clicks(id);" src="images/pokeball.jpg" alt="...">
+          <img class="game-image" id="hitmonchan" src="images/pokeball.jpg" alt="...">
           <div class="caption">
             <h3 class="text-center">Hitmonchan</h3>
             <p class="text-center">this is a leaf pokemon</p>
@@ -661,6 +657,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-  
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
