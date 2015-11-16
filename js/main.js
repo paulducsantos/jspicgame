@@ -1,23 +1,23 @@
 var click = 0;
 nostart = true;
+var gameImages = document.getElementsByClassName("game-image");
 
 function add_clicks(id) {
   if (nostart) {
-    ;
+    return;
   }
-  else if (id === "clicked") {
+  else if (this.id === "clicked") {
     alert("Already Clicked!");
   } else {
     click += 1;
     console.log(click);
-    document.getElementById(id).id = "clicked";
+    document.getElementById(this.id).id = "clicked";
   };
 };
 
 function changeImage(id) {
-  console.log(id);
-  document.getElementById(id).src = "images/pokeball.jpg";
-  
+  console.log(this.id);
+  document.getElementById(this.id).src = "images/pokeball.jpg";
 }
 
 function gameStart() {
@@ -36,3 +36,8 @@ function gameStart() {
 function gameEnd() {
   alert("Game has ended! Your score is " + click)
 };
+
+for (i=0; i < gameImages.length; i++) {
+  gameImages[i].addEventListener("click", changeImage);
+  gameImages[i].addEventListener("click", add_clicks);
+} ;
